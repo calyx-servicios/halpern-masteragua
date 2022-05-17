@@ -90,5 +90,8 @@ zeep
 pdf417gen
 cubiscan
 mock
+pyjwt
+freezegun
+git+https://github.com/OCA/openupgradelib/@master
 
 # Custom addons
