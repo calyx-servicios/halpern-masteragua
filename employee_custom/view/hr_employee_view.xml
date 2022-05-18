@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="view_hr_employee_form_inherit" model="ir.ui.view">
+        <field name="name">view.hr.employee.form.inherit</field>
+        <field name="model">hr.employee</field>
+        <field name="inherit_id" ref="hr.view_employee_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//page//field[@name='country_id']" position="after">
+                <field name="location"/>    
+            </xpath>
+            <xpath expr="//page//field[@name='km_home_work']" position="after">
+                <field name="collective_agreements"/>    
+                <field name="gross_salary" />
+            </xpath>
+            <xpath expr="//page//field[@name='children']" position="after">
+                <field name="children_name"/>   
+                <field name="date_birth" /> 
+                <field name="Last_name" />
+            </xpath>
+        </field>
+        </record>
+    </data>
+</odoo>

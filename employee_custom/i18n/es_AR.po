@@ -1,0 +1,53 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* employee_custom
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-10 13:22+0000\n"
+"PO-Revision-Date: 2022-01-10 10:25-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"Language: es_AR\n"
+"X-Generator: Poedit 3.0\n"
+
+#. module: employee_custom
+#: model:ir.model.fields,field_description:employee_custom.field_hr_employee__children_name
+msgid "Children"
+msgstr "Hijos"
+
+#. module: employee_custom
+#: model:ir.model.fields,field_description:employee_custom.field_hr_employee__collective_agreements
+msgid "Collective agreements"
+msgstr "Convenios colectivos"
+
+#. module: employee_custom
+#: model:ir.model.fields,field_description:employee_custom.field_hr_employee__date_birth
+msgid "Date of birth"
+msgstr "Fecha de nacimiento"
+
+#. module: employee_custom
+#: model:ir.model,name:employee_custom.model_hr_employee
+msgid "Employee"
+msgstr "Empleado"
+
+#. module: employee_custom
+#: model:ir.model.fields,field_description:employee_custom.field_hr_employee__gross_salary
+msgid "Gross salary"
+msgstr "Sueldo bruto"
+
+#. module: employee_custom
+#: model:ir.model.fields,field_description:employee_custom.field_hr_employee__Last_name
+msgid "Last name and name"
+msgstr "Apellido y Nombre"
+
+#. module: employee_custom
+#: model:ir.model.fields,field_description:employee_custom.field_hr_employee__location
+msgid "Location"
+msgstr "Localidad"

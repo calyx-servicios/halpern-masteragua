@@ -10,10 +10,6 @@
 	url = https://github.com/calyx-servicios/account-invoicing.git
 	path = submodules/calyx-servicios/account-invoicing
 	branch = refs/heads/13.0
-[submodule "calyx-servicios/project"]
-	url = https://github.com/calyx-servicios/project.git
-	path = submodules/calyx-servicios/project
-	branch = refs/heads/13.0
 [submodule "calyx-servicios/third-party-apps"]
 	url = https://github.com/calyx-servicios/third-party-apps.git
 	path = submodules/calyx-servicios/third-party-apps
