@@ -1,6 +1,6 @@
 {
     "name": "Tango Reference Field",
-    "summary": """ This module adds the tango reference field to products
+    "summary": """ This module adds the Tango reference field to products
         """,
     "author": "Calyx Servicios S.A.",
     "maintainers": ["AndresAndrade"],
@@ -11,9 +11,8 @@
     "development_status": "Production/Stable",
     "application": False,
     "installable": True,
-    "external_dependencies": {"python": [], "bin": []},
-    "depends": ['product', 'base', 'stock'],
+    "depends": ["product", "base", "stock"],
     "data": [
-        'views/product_template_view.xml',
+        "views/product_template_view.xml",
     ],
 }
