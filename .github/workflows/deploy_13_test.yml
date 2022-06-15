@@ -23,4 +23,5 @@ jobs:
                       cd $PROJECT_PATH
                       git pull --rebase
                       git submodule update
-                      docker restart odoo-$PROJECT_NAME-test
+                      docker restart odoo-halpern-test
+                      docker restart odoo-masteragua-test
