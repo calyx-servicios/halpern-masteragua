@@ -11,9 +11,8 @@
     "development_status": "Production/Stable",
     "application": False,
     "installable": True,
-    "external_dependencies": {"python": [], "bin": []},
-    "depends": ['product', 'base', 'stock'],
+    "depends": ["product", "base", "stock"],
     "data": [
-        'views/stock_quant_views.xml',
+        "views/stock_quant_views.xml",
     ],
 }

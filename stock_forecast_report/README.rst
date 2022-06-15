@@ -14,7 +14,7 @@ Stock Forecast Report
 .. |badge2| image:: https://img.shields.io/badge/licence-AGPL--3-blue.png
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
-.. |badge3| image:: https://img.shields.io/badge/gitlab-calyxservicios--group%2Fodoo%2Fodoo--calyx-lightgray.png?logo=gitlab
+.. |badge3| image:: https://img.shields.io/badge/github-calyx--servicios%2Fhalpern--masteragua-lightgray.png?logo=github
     :target: https://github.com/calyx-servicios/halpern-masteragua
     :alt: calyx-servicios/halpern-masteragua
 
