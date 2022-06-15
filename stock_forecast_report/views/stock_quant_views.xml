@@ -17,29 +17,27 @@
                     <field name="purchase_request"/>
                     <field name="quantity" string="Planned Quantity"/>
                     <field name="company_id"/>
-                    <!-- <field name="total"/> -->
-                </xpath>
-                <xpath expr="//field[@name='location_id']" position="replace">
-                    <field name="location_id" invisible="1"/>
-                </xpath>
-                <xpath expr="//field[@name='reserved_quantity']" position="replace">
-                    <field name="reserved_quantity" invisible="1"/>
-                </xpath>
-                <xpath expr="//field[@name='lot_id']" position="replace">
-                    <field name="lot_id" invisible="1"/>
-                </xpath>
-                <xpath expr="//field[@name='inventory_quantity']" position="replace">
-                    <field name="inventory_quantity" invisible="1"/>
-                </xpath>
-                <xpath expr="//field[@name='product_uom_id']" position="replace">
-                    <field name="product_uom_id" invisible="1"/>
-                </xpath>
-                <xpath expr="//field[@name='value']" position="replace">
-                    <field name="value" invisible="1"/>
-                </xpath>
-                <xpath expr="//field[@name='company_id']" position="after">
-                    <field name="total"/>
-                </xpath>
+            <xpath expr="//field[@name='location_id']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='reserved_quantity']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='lot_id']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='inventory_quantity']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='product_uom_id']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='value']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
+            <xpath expr="//field[@name='company_id']" position="attributes">
+                <attribute name="invisible">1</attribute>
+            </xpath>
             </field>
         </record>
     </data>

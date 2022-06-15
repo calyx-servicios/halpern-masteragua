@@ -1,5 +1,5 @@
 =====================
-stock forecast report
+Stock Forecast Report
 =====================
 
 .. !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -15,8 +15,9 @@ stock forecast report
     :target: http://www.gnu.org/licenses/agpl-3.0-standalone.html
     :alt: License: AGPL-3
 .. |badge3| image:: https://img.shields.io/badge/gitlab-calyxservicios--group%2Fodoo%2Fodoo--calyx-lightgray.png?logo=gitlab
-    :target: https://gitlab.com/calyxservicios-group/odoo/odoo-calyx
-    :alt: calyxservicios-group/odoo/odoo-calyx
+    :target: https://github.com/calyx-servicios/halpern-masteragua
+    :alt: calyx-servicios/halpern-masteragua
+
 
 |badge1| |badge2| |badge3|
 
@@ -24,10 +25,10 @@ stock forecast report
 Install
 =======
 
-# Go to applications
-# Find module "stock_forecast_report"
-# Press Install
-# Go to inventory > and see the modifications
+* Go to applications
+* Find module "stock_forecast_report"
+* Press Install
+* Go to inventory > and see the modifications
 
 
 Known issues / Roadmap
@@ -67,4 +68,4 @@ This module is maintained by the Calyx Servicios S.A.
 CALYX SERVICIOS S.A. It is part of the PGK Consultores economic group, member of an important global network, a world organization positioned among the 20 largest consultant-studios in the world.
 The PGK Consultores group is one of the 20 largest consultant-studios in Argentina with nearly 200 professionals.
 
-This module is part of the `Repo_name <https://github.com/calyx-servicios/custom-heben>`_ project on Github.
+This module is part of the `Halpern - Masteragua <https://github.com/calyx-servicios/halpern-masteragua>`_ project on Github.

@@ -1,5 +1,5 @@
 {
-    "name": "stock forecast report",
+    "name": "Stock Forecast Report",
     "summary": """ This module adds a custom report to inventory
         """,
     "author": "Calyx Servicios S.A.",
