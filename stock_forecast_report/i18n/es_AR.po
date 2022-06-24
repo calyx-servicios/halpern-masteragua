@@ -1,0 +1,77 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* stock_forecast_report
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-09 12:03+0000\n"
+"PO-Revision-Date: 2022-06-09 12:03+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: stock_forecast_report
+#: model:ir.model.fields,field_description:stock_forecast_report.field_stock_quant__lead_time
+msgid "Lead Time"
+msgstr ""
+
+#. module: stock_forecast_report
+#: model:ir.model.fields,field_description:stock_forecast_report.field_stock_quant__open_purchase_orders
+msgid "OC comp"
+msgstr ""
+
+#. module: stock_forecast_report
+#: model:ir.model.fields,field_description:stock_forecast_report.field_stock_quant__open_sales_orders
+msgid "OV comp"
+msgstr ""
+
+#. module: stock_forecast_report
+#: model_terms:ir.ui.view,arch_db:stock_forecast_report.view_stock_quant_tree_inherit
+msgid "Planned Quantity"
+msgstr "Cantidad Planificada"
+
+#. module: stock_forecast_report
+#: model:ir.model.fields,field_description:stock_forecast_report.field_stock_quant__product_id
+msgid "Product"
+msgstr "Producto"
+
+#. module: stock_forecast_report
+#: model:ir.model.fields,field_description:stock_forecast_report.field_stock_quant__purchase_request
+msgid "Purch Req"
+msgstr ""
+
+#. module: stock_forecast_report
+#: model:ir.model.fields,field_description:stock_forecast_report.field_stock_quant__quantity
+#: model:ir.model.fields,field_description:stock_forecast_report.field_stock_quant__quantity_on_hand
+msgid "Quantity"
+msgstr "Cantidad"
+
+#. module: stock_forecast_report
+#: model:ir.model.fields,help:stock_forecast_report.field_stock_quant__quantity
+#: model:ir.model.fields,help:stock_forecast_report.field_stock_quant__quantity_on_hand
+msgid ""
+"Quantity of products in this quant, in the default unit of measure of the "
+"product"
+msgstr ""
+"Cantidad de productos en este quant, en la unidad de medida predeterminada "
+"del producto"
+
+#. module: stock_forecast_report
+#: model:ir.model,name:stock_forecast_report.model_stock_quant
+msgid "Quants"
+msgstr ""
+
+#. module: stock_forecast_report
+#: model_terms:ir.ui.view,arch_db:stock_forecast_report.view_stock_quant_tree_inherit
+msgid "SM"
+msgstr ""
+
+#. module: stock_forecast_report
+#: model:ir.model.fields,field_description:stock_forecast_report.field_stock_quant__total
+msgid "Total"
+msgstr ""
