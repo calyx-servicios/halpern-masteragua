@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="purchase_order_comex" model="ir.ui.view">
+        <field name="name">purchase.order.foreign.form</field>
+        <field name="model">purchase.order</field>
+        <field name="inherit_id" ref="purchase.purchase_order_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//notebook[last()]" position="inside">
+                <page name="foreign purchase" string="Foreign Purchase" >
+                    <group>
+                        <group string="Confirmation">
+                            <field name="confirmation_not_required" string="Not Required"/>
+                            <field name="confirmation_number" string="Number" attrs="{'readonly': [('confirmation_not_required','=',True)]}"/>
+                            <field name="confirmation_date" string="Date" attrs="{'readonly': [('confirmation_not_required','=',True)]}"/>
+                        </group> 
+                        <group string="Proform">
+                            <field name="proform_not_required" string="Not Required"/> 
+                            <field name="proform_number" string="Number" attrs="{'readonly': [('proform_not_required','=',True)]}"/>
+                            <field name="proform_date" string="Date" attrs="{'readonly': [('proform_not_required','=',True)]}"/>
+                            <field name="proform_incoterm" string="Incoterm" attrs="{'readonly': [('proform_not_required','=',True)]}"/>
+                            <field name="proform_payment_date" string="Payment Date" attrs="{'readonly': [('proform_not_required','=',True)]}"/>
+                            <field name="proform_currency" string="Currency" attrs="{'readonly': [('proform_not_required','=',True)]}"/>
+                            <field name="proform_payment_terms" string="Payment Terms" attrs="{'readonly': [('proform_not_required','=',True)]}"/>
+                            <field name="proform_merchandise_weight" string="Merchandise Weight (Kg)" attrs="{'readonly': [('proform_not_required','=',True)]}"/>
+                            <field name="proform_packaging" string="Packaging" attrs="{'readonly': [('proform_not_required','=',True)]}"/>
+                            <field name="proform_treatment" string="Treatment" attrs="{'readonly': [('proform_not_required','=',True)]}"/>
+                        </group>
+                        <group string="Payment Date">
+                            <field name="payment_not_required" string="Not Required"/>
+                            <field name="payment_provisory_payment_customs_taxes" string="Provisory Payment Custom Taxes" attrs="{'readonly': [('payment_not_required','=',True)]}"/>
+                            <field name="payment_bank_account" string="Bank Account" attrs="{'readonly': [('payment_not_required','=',True)]}"/>
+                            <field name="payment_applicance_number" string="Applicance Number" attrs="{'readonly': [('payment_not_required','=',True)]}"/>
+                            <field name="payment_date" string="Date" attrs="{'readonly': [('payment_not_required','=',True)]}"/>
+                            <field name="payment_reference" string="Reference" attrs="{'readonly': [('payment_not_required','=',True)]}"/>
+                            <field name="payment_payment_currency" string="Payment Currency" attrs="{'readonly': [('payment_not_required','=',True)]}"/>
+                            <field name="payment_payment_method" string="Payment Method" attrs="{'readonly': [('payment_not_required','=',True)]}"/>
+                            <field name="payment_TTE_paid_value" string="TTE Paid Value" attrs="{'readonly': [('payment_not_required','=',True)]}"/>
+                            <field name="payment_currency_type" string="Currency Type" attrs="{'readonly': [('payment_not_required','=',True)]}"/>
+                        </group>
+                        <group string="Dispatcher">
+                            <field name="dispatcher_not_required" string="Not Required"/>
+                            <field name="dispatcher_dispatcher" string="Dispatcher" attrs="{'readonly':[('dispatcher_not_required','=',True)]}"/>
+                            <field name="dispatcher_address" string="Address" attrs="{'readonly':[('dispatcher_not_required','=',True)]}"/>
+                            <field name="dispatcher_email" string="Email" attrs="{'readonly':[('dispatcher_not_required','=',True)]}"/>
+                            <field name="dispatcher_phone" string="Phone" attrs="{'readonly':[('dispatcher_not_required','=',True)]}"/>
+                        </group>
+                        <group string="Intervention">
+                            <field name="intervention_not_required" string="Not Required"/>
+                            <field name="intervention_reference" string="Reference" attrs="{'readonly': [('intervention_not_required','=',True)]}"/>
+                            <field name="intervention_vep_amount" string="VEP Amount" attrs="{'readonly': [('intervention_not_required','=',True)]}"/>
+                            <field name="intervention_application_date" string="Application Date" attrs="{'readonly': [('intervention_not_required','=',True)]}"/>
+                            <field name="intervention_currency" string="Currency" attrs="{'readonly': [('intervention_not_required','=',True)]}"/>
+                            <field name="intervention_approval_date" string="Approval Date" attrs="{'readonly': [('intervention_not_required','=',True)]}"/>
+                        </group>
+                       <group string="Import License">
+                            <field name="import_license_not_required" string="Not Required"/>
+                            <field name="import_license_reference" string="Reference" attrs="{'readonly': [('import_license_not_required','=',True)]}"/>
+                            <field name="import_license_officialization_date" string="Officialization Date" attrs="{'readonly': [('import_license_not_required','=',True)]}"/>
+                            <field name="import_license_bank" string="Bank" attrs="{'readonly': [('import_license_not_required','=',True)]}"/>
+                            <field name="import_license_payment_form" string="Payment Form" attrs="{'readonly': [('import_license_not_required','=',True)]}"/>
+                            <field name="import_license_possible_payment_date" string="Possible Payment Date" attrs="{'readonly': [('import_license_not_required','=',True)]}"/>
+                            <field name="import_license_approval_date" string="Approval Date" attrs="{'readonly': [('import_license_not_required','=',True)]}"/>
+                            <field name="import_license_simi" string="SIMI" attrs="{'readonly':[('import_license_not_required','=',True)]}"/>
+                        </group>
+                        <group string="Origin">
+                            <field name="booking_not_required" string="Not Required"/>
+                            <field name="booking_transportation_means" string="Transportation Means" attrs="{'readonly': [('booking_not_required','=',True)]}"/>
+                            <field name="booking_origin" string="Origin" attrs="{'readonly': [('booking_not_required','=',True)]}"/>
+                            <field name="booking_etd_date" string="ETD Date" attrs="{'readonly': [('booking_not_required','=',True)]}"/>
+                            <field name="booking_eta_date" string="ETA Date" attrs="{'readonly': [('booking_not_required','=',True)]}"/>
+                            <field name="booking_transport_company" string="Transport Company" attrs="{'readonly': [('booking_not_required','=',True)]}"/>
+                            <field name="booking_name" string="Name" attrs="{'readonly': [('booking_not_required','=',True)]}"/>
+                            <field name="booking_internal_notes" string="Internal Notes" attrs="{'readonly': [('booking_not_required','=',True)]}"/>
+                        </group>
+                        <group string="Documents">
+                            <field name="document_not_required" string="Not Required"/>
+                            <field name="document_commercial_bill_number" string="Commercial Bill Number" attrs="{'readonly': [('document_not_required','=',True)]}"/>
+                            <field name="document_bill_date" string="Bill Date" attrs="{'readonly': [('document_not_required','=',True)]}"/>
+                            <field name="document_analysis_certificate_approval_date" string="Analysis Certificate Approval Date" attrs="{'readonly': [('document_not_required','=',True)]}"/>
+                            <field name="document_original_documentation" string="Original Documentation" attrs="{'readonly': [('document_not_required','=',True)]}"/>
+                            <field name="document_shipment_document_date" string="Shipment Document Date" attrs="{'readonly': [('document_not_required','=',True)]}"/>
+                            <field name="document_origin_certificate" string="Origin Certificate" attrs="{'readonly': [('document_not_required','=',True)]}"/>
+                            <field name="document_bl" string="BL" attrs="{'readonly': [('document_not_required','=',True)]}"/>
+                            <field name="document_crt" string="CRT" attrs="{'readonly': [('document_not_required','=',True)]}"/>
+                        </group>
+                        <group string="Expenses">
+                            <field name="expenses_not_required" string="Not Required"/>
+                            <field name="expenses_dispatcher_fees" string="Dispatcher Fees" attrs="{'readonly': [('expenses_not_required','=',True)]}"/>
+                            <field name="expenses_forwarder" string="Forwarder" attrs="{'readonly': [('expenses_not_required','=',True)]}"/>
+                            <field name="expenses_fiscal_deposit" string="Fiscal Deposit" attrs="{'readonly': [('expenses_not_required','=',True)]}"/>
+                            <field name="expenses_currency_payment" string="Currency Payment" attrs="{'readonly': [('expenses_not_required','=',True)]}"/>
+                            <field name="expenses_expenses" string="Expenses" attrs="{'readonly': [('expenses_not_required','=',True)]}"/>
+                            <field name="expenses_currency_payment_expenses" string="Expenses Currency Payment" attrs="{'readonly': [('expenses_not_required','=',True)]}"/>
+                        </group>
+                        <group string="Importation Dispatch">
+                            <field name="importation_not_required" string="Not Required"/>
+                            <field name="importation_dispatch_number" string="Dispatch Number" attrs="{'readonly': [('importation_not_required','=',True)]}"/>
+                            <field name="importation_officialization_date" string="Officialization Date" attrs="{'readonly': [('importation_not_required','=',True)]}"/>
+                            <field name="importation_channel"  string="Channel" attrs="{'readonly': [('importation_not_required','=',True)]}"/>
+                        </group>
+                        <group string="Original Documentation">
+                            <field name="original_not_required" string="Not Required"/>
+                            <field name="original_reception_date" string="Reception Date" attrs="{'readonly':[('original_not_required','=',True)]}"/>
+                            <field name="original_reference"  string="Reference" attrs="{'readonly':[('original_not_required','=',True)]}"/>
+                            <field name="original_dispatcher_sending_date"  string="Dispatcher Sending Date" attrs="{'readonly':[('original_not_required','=',True)]}"/>
+                        </group>
+                    </group>
+                </page>
+            </xpath>
+        </field>
+    </record>
+</odoo>
