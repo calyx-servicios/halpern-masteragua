@@ -1,0 +1,7 @@
+id,name,model_id/id,group_id/id,perm_read,perm_write,perm_create,perm_unlink
+access_booking,purchase.booking,model_purchase_booking,purchase.group_purchase_user,1,1,1,0
+access_booking_manager,purchase.booking.manager,model_purchase_booking,purchase.group_purchase_manager,1,1,1,1
+access_delivery_channel,purchase.channel,model_purchase_channel,purchase.group_purchase_user,1,1,1,0
+access_delivery_channel_manager,purchase.channel.manager,model_purchase_channel,purchase.group_purchase_manager,1,1,1,1
+access_dispatcher,purchase.dispatcher,model_purchase_dispatcher,purchase.group_purchase_user,1,1,1,0
+access_dispatcher_manager,purchase.dispatcher.manager,model_purchase_dispatcher,purchase.group_purchase_manager,1,1,1,1

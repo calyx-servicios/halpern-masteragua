@@ -1,0 +1,877 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* foreign_purchase_order
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-29 18:05+0000\n"
+"PO-Revision-Date: 2022-06-29 18:05+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields.selection,name:foreign_purchase_order.selection__purchase_order__expenses_currency_payment__ars
+#: model:ir.model.fields.selection,name:foreign_purchase_order.selection__purchase_order__expenses_currency_payment_expenses__ars
+#: model:ir.model.fields.selection,name:foreign_purchase_order.selection__purchase_order__intervention_currency__ars
+msgid "ARS"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_dispatcher__address
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__dispatcher_address
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Address"
+msgstr "Dirección"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Analysis Certificate Approval Date"
+msgstr "Fecha de Aprobación de Certificado de Análisis"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields.selection,name:foreign_purchase_order.selection__purchase_order__import_license_payment_form__anticipated
+#: model:ir.model.fields.selection,name:foreign_purchase_order.selection__purchase_order__payment_payment_method__anticipated
+#: model:ir.model.fields.selection,name:foreign_purchase_order.selection__purchase_order__proform_payment_method__anticipated
+msgid "Anticipated"
+msgstr "Anticipado"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Applicance Number"
+msgstr "Número de Solicitud"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Application Date"
+msgstr "Fecha de Solicitud"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Approval Date"
+msgstr "Fecha de Aprobación"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "BL"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Bank Account"
+msgstr "Banco y Cuenta"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Bill Date"
+msgstr "Fecha de Factura"
+
+#. module: foreign_purchase_order
+#: model:ir.actions.act_window,name:foreign_purchase_order.booking_list_action
+msgid "Booking"
+msgstr "Origen (Reserva de Buque)"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__booking_eta_date
+msgid "Booking Eta Date"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__booking_etd_date
+msgid "Booking Etd Date"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__booking_internal_notes
+msgid "Booking Internal Notes"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__booking_name
+msgid "Booking Name"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__booking_not_required
+msgid "Booking Not Required"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__booking_origin
+msgid "Booking Origin"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__booking_transport_company
+msgid "Booking Transport Company"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__booking_transportation_means
+msgid "Booking Transportation Means"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields.selection,name:foreign_purchase_order.selection__purchase_order__proform_incoterm__cif
+msgid "CIF"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "CRT"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_channel__name
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Channel"
+msgstr "Canal"
+
+#. module: foreign_purchase_order
+#: model:ir.actions.act_window,name:foreign_purchase_order.channel_list_action
+#: model:ir.ui.menu,name:foreign_purchase_order.conf_channel
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_channel_list
+msgid "Channels"
+msgstr "Canales"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Commercial Bill Number"
+msgstr "Número de Factura Comercial"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Confirmation"
+msgstr "Confirmación"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__confirmation_date
+msgid "Confirmation Date"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__confirmation_not_required
+msgid "Confirmation Not Required"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__confirmation_number
+msgid "Confirmation Number"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.actions.act_window,help:foreign_purchase_order.booking_list_action
+msgid "Create the first Booking Record"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.actions.act_window,help:foreign_purchase_order.channel_list_action
+msgid "Create the first Channel Record"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.actions.act_window,help:foreign_purchase_order.dispatcher_list_action
+msgid "Create the first Dispatcher Record"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_booking__create_uid
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_channel__create_uid
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_dispatcher__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_booking__create_date
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_channel__create_date
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_dispatcher__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Currency"
+msgstr "Moneda"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Currency Payment"
+msgstr "Moneda de Pago"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Currency Type"
+msgstr "Tipo de Moneda"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Date"
+msgstr "Fecha"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields.selection,name:foreign_purchase_order.selection__purchase_order__import_license_payment_form__deferred
+#: model:ir.model.fields.selection,name:foreign_purchase_order.selection__purchase_order__payment_payment_method__deferred
+#: model:ir.model.fields.selection,name:foreign_purchase_order.selection__purchase_order__proform_payment_method__deferred
+msgid "Deferred"
+msgstr "Diferido"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Dispatch Number"
+msgstr "Número de Despacho"
+
+#. module: foreign_purchase_order
+#: model:ir.actions.act_window,name:foreign_purchase_order.dispatcher_list_action
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Dispatcher"
+msgstr "Despachante"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__dispatcher_dispatcher
+msgid "Dispatcher Dispatcher"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Dispatcher Fees"
+msgstr "Honorarios de Despachante"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__dispatcher_not_required
+msgid "Dispatcher Not Required"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Dispatcher Sending Date"
+msgstr "Fecha de Envío de Originales a Despachante"
+
+#. module: foreign_purchase_order
+#: model:ir.ui.menu,name:foreign_purchase_order.conf_dispatcher
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_dispatcher_list
+msgid "Dispatchers"
+msgstr "Despachantes"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_booking__display_name
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_channel__display_name
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_dispatcher__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__document_analysis_certificate_approval_date
+msgid "Document Analysis Certificate Approval Date"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__document_bill_date
+msgid "Document Bill Date"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__document_bl
+msgid "Document Bl"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__document_commercial_bill_number
+msgid "Document Commercial Bill Number"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__document_crt
+msgid "Document Crt"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__document_not_required
+msgid "Document Not Required"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__document_origin_certificate
+msgid "Document Origin Certificate"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__document_original_documentation
+msgid "Document Original Documentation"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__document_shipment_document_date
+msgid "Document Shipment Document Date"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Documents"
+msgstr "Documentos"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "ETA Date"
+msgstr "Fecha ETA"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "ETD Date"
+msgstr "Fecha ETD"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields.selection,name:foreign_purchase_order.selection__purchase_order__expenses_currency_payment__eur
+#: model:ir.model.fields.selection,name:foreign_purchase_order.selection__purchase_order__expenses_currency_payment_expenses__eur
+#: model:ir.model.fields.selection,name:foreign_purchase_order.selection__purchase_order__intervention_currency__eur
+msgid "EUR"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields.selection,name:foreign_purchase_order.selection__purchase_order__proform_incoterm__exw
+msgid "EXW"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_dispatcher__email
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__dispatcher_email
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Email"
+msgstr "Correo"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Expenses"
+msgstr "Gastos"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__expenses_currency_payment
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Expenses Currency Payment"
+msgstr "Moneda de Pago de Gastos"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__expenses_currency_payment_expenses
+msgid "Expenses Currency Payment Expenses"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__expenses_dispatcher_fees
+msgid "Expenses Dispatcher Fees"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__expenses_expenses
+msgid "Expenses Expenses"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__expenses_fiscal_deposit
+msgid "Expenses Fiscal Deposit"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__expenses_forwarder
+msgid "Expenses Forwarder"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__expenses_not_required
+msgid "Expenses Not Required"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__expenses_port_airport
+msgid "Expenses Port Airport"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields.selection,name:foreign_purchase_order.selection__purchase_order__proform_incoterm__fca
+msgid "FCA"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields.selection,name:foreign_purchase_order.selection__purchase_order__proform_incoterm__fob
+msgid "FOB"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Fiscal Deposit"
+msgstr "Déposito Fiscal"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Foreign Purchase"
+msgstr "Compras Extranjeras"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Forwarder"
+msgstr "Forwarder"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_booking__id
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_channel__id
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_dispatcher__id
+msgid "ID"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Import License"
+msgstr "Licencia de Importación"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__import_license_approval_date
+msgid "Import License Approval Date"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__import_license_bank
+msgid "Import License Bank"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__import_license_not_required
+msgid "Import License Not Required"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__import_license_officialization_date
+msgid "Import License Officialization Date"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__import_license_payment_form
+msgid "Import License Payment Form"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__import_license_possible_payment_date
+msgid "Import License Possible Payment Date"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__import_license_reference
+msgid "Import License Reference"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__import_license_simi
+msgid "Import License Simi"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__importation_channel
+msgid "Importation Channel"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Importation Dispatch"
+msgstr "Despacho de Importación"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__importation_dispatch_number
+msgid "Importation Dispatch Number"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__importation_not_required
+msgid "Importation Not Required"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__importation_officialization_date
+msgid "Importation Officialization Date"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Incoterm"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Internal Notes"
+msgstr "Notas Internas"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Intervention"
+msgstr "Intervención"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__intervention_application_date
+msgid "Intervention Application Date"
+msgstr "Fecha de Solicitud"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__intervention_approval_date
+msgid "Intervention Approval Date"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__intervention_currency
+msgid "Intervention Currency"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__intervention_not_required
+msgid "Intervention Not Required"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__intervention_reference
+msgid "Intervention Reference"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__intervention_vep_amount
+msgid "Intervention Vep Amount"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields.selection,name:foreign_purchase_order.selection__purchase_order__import_license_simi__la
+msgid "LA"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields.selection,name:foreign_purchase_order.selection__purchase_order__import_license_simi__lna
+msgid "LNA"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_booking____last_update
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_channel____last_update
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_dispatcher____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_booking__write_uid
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_channel__write_uid
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_dispatcher__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_booking__write_date
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_channel__write_date
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_dispatcher__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Bank"
+msgstr "Banco"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Merchandise Weight (Kg)"
+msgstr "Peso de Mercadería(Kg)"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_dispatcher__name
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Name"
+msgstr "Nombre"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Not Required"
+msgstr "No Requerido"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Number"
+msgstr "Número"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Officialization Date"
+msgstr "Fecha de Oficialización"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Origin"
+msgstr "Origen"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Origin Certificate"
+msgstr "Certificado de Origen"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__original_dispatcher_sending_date
+msgid "Original Dispatcher Sending Date"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Original Documentation"
+msgstr "Documentación Original"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__original_not_required
+msgid "Original Not Required"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__original_reception_date
+msgid "Original Reception Date"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__original_reference
+msgid "Original Reference"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Packaging"
+msgstr "Empaquetado"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__payment_applicance_number
+msgid "Payment Applicance Number"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__payment_bank_account
+msgid "Payment Bank Account"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Payment Currency"
+msgstr "Moneda de Pago"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__payment_currency_type
+msgid "Payment Currency Type"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__payment_date
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Payment Date"
+msgstr "Fecha de Pago"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Payment Form"
+msgstr "Forma de Pago"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Payment Method"
+msgstr "Método de Pago"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__payment_not_required
+msgid "Payment Not Required"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__payment_payment_currency
+msgid "Payment Payment Currency"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__payment_payment_method
+msgid "Payment Payment Method"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__payment_provisory_payment_customs_taxes
+msgid "Payment Provisory Payment Customs Taxes"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__payment_reference
+msgid "Payment Reference"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Payment Terms"
+msgstr "Términos de Pago"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__payment_TTE_paid_value
+msgid "Payment Tte Paid Value"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_dispatcher__phone
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__dispatcher_phone
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Phone"
+msgstr "Teléfono"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Possible Payment Date"
+msgstr "Probable Fecha de Pago"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Proform"
+msgstr "Proforma"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__proform_currency
+msgid "Proform Currency"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__proform_date
+msgid "Proform Date"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__proform_incoterm
+msgid "Proform Incoterm"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__proform_merchandise_weight
+msgid "Proform Merchandise Weight"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__proform_not_required
+msgid "Proform Not Required"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__proform_number
+msgid "Proform Number"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__proform_packaging
+msgid "Proform Packaging"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__proform_payment_date
+msgid "Proform Payment Date"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__proform_payment_method
+msgid "Proform Payment Method"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__proform_payment_terms
+msgid "Proform Payment Terms"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_order__proform_treatment
+msgid "Proform Treatment"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Provisory Payment Custom Taxes"
+msgstr "Pago Provisorio de Impuestos de Aduana"
+
+#. module: foreign_purchase_order
+#: model:ir.model,name:foreign_purchase_order.model_purchase_order
+msgid "Purchase Order"
+msgstr "Pedido de compra"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Reception Date"
+msgstr "Fecha de Recepción de Originales"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Reference"
+msgstr "Referencia"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "SIMI"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Shipment Document Date"
+msgstr "Fecha de Documento de Embarque"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "TTE Paid Value"
+msgstr "Valor de Pago TTE"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Transport Company"
+msgstr "Compañia de Transporte"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields,field_description:foreign_purchase_order.field_purchase_booking__name
+msgid "Transportation Mean"
+msgstr "Medio de Transporte"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Transportation Means"
+msgstr "Medios de Transporte"
+
+#. module: foreign_purchase_order
+#: model:ir.ui.menu,name:foreign_purchase_order.conf_booking
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_booking_list
+msgid "Transportations Means"
+msgstr "Medios de Transporte"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "Treatment"
+msgstr "Tratamiento"
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_booking_form
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_channel_form
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_dispatcher_form
+msgid "Type"
+msgstr "Tipo"
+
+#. module: foreign_purchase_order
+#: model:ir.model.fields.selection,name:foreign_purchase_order.selection__purchase_order__expenses_currency_payment__usd
+#: model:ir.model.fields.selection,name:foreign_purchase_order.selection__purchase_order__expenses_currency_payment_expenses__usd
+#: model:ir.model.fields.selection,name:foreign_purchase_order.selection__purchase_order__intervention_currency__usd
+msgid "USD"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model_terms:ir.ui.view,arch_db:foreign_purchase_order.purchase_order_comex
+msgid "VEP Amount"
+msgstr "Monto VEP"
+
+#. module: foreign_purchase_order
+#: model:ir.model,name:foreign_purchase_order.model_purchase_booking
+msgid "purchase.booking"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model,name:foreign_purchase_order.model_purchase_channel
+msgid "purchase.channel"
+msgstr ""
+
+#. module: foreign_purchase_order
+#: model:ir.model,name:foreign_purchase_order.model_purchase_dispatcher
+msgid "purchase.dispatcher"
+msgstr ""
