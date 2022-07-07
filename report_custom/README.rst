@@ -56,7 +56,8 @@ Contributors
 
 * `Calyx Servicios S.A. <http://www.calyxservicios.com.ar/>`_
   
-  * `Georgina Guzman <https://github.com/garaceliguzman/>`_
+  * Andres Andrade
+  * Georgina Guzman
 
 Maintainers
 ~~~~~~~~~~~
