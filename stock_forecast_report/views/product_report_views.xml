@@ -1,0 +1,29 @@
+<odoo>
+    <record id="view_stock_forecast_tree" model="ir.ui.view">
+        <field name="name">stock.forecast.tree</field>
+        <field name="model">stock.move</field>
+        <field name="arch" type="xml">
+            <tree decoration-muted="state == 'cancel'" decoration-danger="(state not in ('cancel','done')) and date > current_date" string="Moves" create="0">
+                <field name="date" groups="base.group_no_one" invisible="1"/>
+                <field name="reference" invisible="1"/>
+                <field name="picking_type_id" invisible="1"/>
+                <field name="create_date" invisible="1" groups="base.group_no_one"/>
+                <field name="product_id"/>
+                <field name="analytic_account_id" invisible="1"/>
+                <field name="quantity" string="SM"/>
+                <field name="location_id" groups="stock.group_stock_multi_locations" string="From"/>
+                <field name="location_dest_id" groups="stock.group_stock_multi_locations" string="To"/>
+                <field name="product_uom_qty" invisible="1"/>
+                <field name="product_uom" options="{'no_open': True, 'no_create': True}" string="Unit of Measure" groups="uom.group_uom" invisible="1"/>
+                <field name="state" invisible="1"/>
+                <field name="open_sales_orders"/>
+                <field name="open_purchase_orders"/>
+                <field name="lead_time"/>
+                <field name="purchase_request"/>
+                <field name="planned_quantity"/>
+                <field name="company_id"/>
+                <field name="total"/>
+            </tree>
+        </field>
+    </record>
+</odoo> 

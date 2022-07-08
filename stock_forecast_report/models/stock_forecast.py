@@ -4,8 +4,8 @@ from odoo.addons import decimal_precision as dp
 from odoo.tools.float_utils import float_round
 
 
-class StockQuant(models.Model):
-    _inherit = 'stock.quant'
+class StockMove(models.Model):
+    _inherit = "stock.move"
 
     product_id = fields.Many2one(
         'product.product', 'Product',
@@ -13,7 +13,8 @@ class StockQuant(models.Model):
 
     quantity = fields.Float(
         'Quantity',
-        readonly=True)
+        readonly=True,
+        related="product_id.qty_available")
 
     open_sales_orders = fields.Float(
         'OV comp',
@@ -35,9 +36,7 @@ class StockQuant(models.Model):
         compute="_compute_qty_available",
     )
 
-    analytic_account_id = fields.Char(
-        'Analytic Account', 
-        readonly=True)
+    analytic_account_id = fields.Many2one('account.analytic.account', string='Analytic Account', index=True)
 
     purchased_product_qty = fields.Float(string='Purchased')
 
@@ -78,12 +77,18 @@ class StockQuant(models.Model):
         readonly=True,
         compute="_compute_total")
 
-    @api.depends('quantity','open_purchase_orders','purchase_request') 
+    @api.depends('quantity','open_purchase_orders','purchase_request','open_sales_orders') 
     def _compute_planned_quantity(self):
         for rec in self:
-            rec.planned_quantity = rec.quantity + rec.open_purchase_orders + rec.purchase_request
+            rec.planned_quantity = rec.quantity + rec.open_sales_orders - rec.open_purchase_orders + rec.purchase_request
 
     planned_quantity = fields.Float(
         'Planned Quantity',
         readonly=True,
         compute="_compute_planned_quantity")
+
+class ProductTemplate(models.Model):
+    _inherit = 'product.template'
+
+    sales_count = fields.Float(string='Sold')
+    purchased_product_qty = fields.Float(string='Purchased')
