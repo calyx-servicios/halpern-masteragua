@@ -1,4 +1,3 @@
-# License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl).
 {
     "name": "Report Sale Custom",
     "summary": """
@@ -15,6 +14,9 @@
     "external_dependencies": {"python": [], "bin": []},
     "depends": ['sale',],
     "data": [
-        "view/template.xml",
+        "view/template_no_details.xml",
+        "view/template_with_details.xml",
+        "report/sale_report.xml",
+        "view/sale_views.xml",
     ],
 }
