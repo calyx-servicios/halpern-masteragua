@@ -14,6 +14,7 @@
     "external_dependencies": {"python": [], "bin": []},
     "depends": ['product', 'base', 'stock'],
     "data": [
-        'views/stock_quant_views.xml',
+        'views/product_report_views.xml',
+        'views/menuitem.xml',
     ],
 }
