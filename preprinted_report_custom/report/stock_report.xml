@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <report
+            string="Pre printed"
+            id="action_preprinted_report"
+            model="stock.picking"
+            report_type="qweb-pdf"
+            name="preprinted_report_custom.preprinted_report_custom"
+            file="preprinted_report_custom.preprinted_report_custom"
+            print_report_name="'Preprinted - %s - %s' % (object.partner_id.name or '', object.name)"
+        />
+    </data>
+</odoo>
