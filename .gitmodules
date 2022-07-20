@@ -202,3 +202,7 @@
 	path = submodules/OCA/sale-workflow
 	url = https://github.com/OCA/sale-workflow.git
 	branch = 13.0
+[submodule "submodules/OCA/product-attribute"]
+	path = submodules/OCA/product-attribute
+	url = https://github.com/OCA/product-attribute.git
+	branch = 13.0
