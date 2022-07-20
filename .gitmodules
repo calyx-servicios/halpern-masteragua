@@ -9,7 +9,7 @@
 [submodule "calyx-servicios/account-invoicing"]
 	url = https://github.com/calyx-servicios/account-invoicing.git
 	path = submodules/calyx-servicios/account-invoicing
-	branch = refs/heads/13.0
+	branch = 13.0_staging
 [submodule "calyx-servicios/third-party-apps"]
 	url = https://github.com/calyx-servicios/third-party-apps.git
 	path = submodules/calyx-servicios/third-party-apps
@@ -193,7 +193,7 @@
 [submodule "submodules/calyx-servicios/account-payment"]
 	path = submodules/calyx-servicios/account-payment
 	url = https://github.com/calyx-servicios/account-payment.git
-	branch = 13.0
+	branch = 13.0_staging
 [submodule "submodules/OCA/project"]
 	path = submodules/OCA/project
 	url = https://github.com/OCA/project.git
