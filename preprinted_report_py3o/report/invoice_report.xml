@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+<record id="pre_printed" model="ir.actions.report">
+    <field name="report_type">py3o</field>
+    <field name="py3o_filetype">odt</field>
+    <field name="module">preprinted_report_py3o</field>
+    <field name="py3o_template_fallback">preprinted_report_py3o/report/pre_impreso.odt</field>
+</record>
+
+</odoo>
